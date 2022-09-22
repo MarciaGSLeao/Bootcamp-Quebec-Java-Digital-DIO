@@ -1,4 +1,4 @@
-package model;
+package exercises;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

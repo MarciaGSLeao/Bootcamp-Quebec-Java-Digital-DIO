@@ -6,13 +6,18 @@ public class DivisionNotExactException extends RuntimeException{
 	private int numerador;
 	private int denominador;
 	
-	public DivisionNotExactException (int numerador, int denominador){
-		super("Teste");
+	public DivisionNotExactException (String msg, int numerador, int denominador){
+		super(msg);
 		this.numerador = numerador;
 		this.denominador = denominador;
-		
-		if (denominador == 0) {
-			throw new RuntimeException("Impossível divisão por 0");
-		}
 	}
+
+	public int getNumerador() {
+		return numerador;
+	}
+
+	public int getDenominador() {
+		return denominador;
+	}
+
 }

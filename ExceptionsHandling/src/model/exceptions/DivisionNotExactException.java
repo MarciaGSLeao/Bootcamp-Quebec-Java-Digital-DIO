@@ -1,12 +1,12 @@
-package exercises;
+package model.exceptions;
 
 @SuppressWarnings("serial")
-public class DivisionNotExact extends RuntimeException{
+public class DivisionNotExactException extends RuntimeException{
 	
 	private int numerador;
 	private int denominador;
 	
-	public DivisionNotExact (int numerador, int denominador){
+	public DivisionNotExactException (int numerador, int denominador){
 		super("Teste");
 		this.numerador = numerador;
 		this.denominador = denominador;

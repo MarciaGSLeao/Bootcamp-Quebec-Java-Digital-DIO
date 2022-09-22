@@ -1,4 +1,4 @@
-package exercises;
+package model.exceptions;
 
 @SuppressWarnings("serial")
 public class ImpossibleFileOpenningException extends Exception{

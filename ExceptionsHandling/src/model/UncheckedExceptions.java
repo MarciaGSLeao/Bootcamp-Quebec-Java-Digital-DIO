@@ -1,4 +1,4 @@
-package exercises;
+package model;
 
 import javax.swing.JOptionPane;
 
@@ -11,9 +11,7 @@ public class UncheckedExceptions {
 		boolean looping = true;
 		
 		do {
-			
 			try {
-				
 				String a = JOptionPane.showInputDialog("Numerador: ");
 				String b = JOptionPane.showInputDialog("Denominador: ");
 				
@@ -29,7 +27,5 @@ public class UncheckedExceptions {
 			}
 		}
 		while(looping);
-		
 	}
-
 }

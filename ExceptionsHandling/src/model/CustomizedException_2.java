@@ -1,4 +1,4 @@
-package exercises;
+package model;
 
 public class CustomizedException_2 {
 	

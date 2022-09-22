@@ -1,4 +1,4 @@
-package exercises;
+package model;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 import javax.swing.JOptionPane;
+
+import model.exceptions.ImpossibleFileOpenningException;
 
 public class CustomizedException_1 {
 	

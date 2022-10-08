@@ -1,6 +1,6 @@
 package challenge;
 
-public class CalcProgram {
+public class MainProgram {
 	
 	public static void main(String[] args) {
 		

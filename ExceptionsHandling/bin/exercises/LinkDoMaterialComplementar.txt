@@ -1,3 +1,0 @@
-1 - Slide do curso com a parte teórica: https://docs.google.com/presentation/d/1CQDNDFG4y4QVw626jdkuNNWbYG6GKER8/edit?rtpof=true&sd=true
-
-2 - Repositório do Github com os códigos e mais: https://github.com/cami-la/exceptions-java
